@@ -139,9 +139,6 @@ plt.tight_layout()
 plt.show()
 #%%
 #Grafico 3 
-
-# ... (seus códigos anteriores) ...
-
 # Criando um DataFrame para contar as instituições que estão apenas em pcd.estacao
 instituicoes_apenas_estacao = estacao_only.groupby('est_ins_codigo').size()
 instituicoes_apenas_estacao.index = instituicoes_apenas_estacao.index.astype(int)

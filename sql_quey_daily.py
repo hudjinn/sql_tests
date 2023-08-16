@@ -6,7 +6,7 @@ import re
 import matplotlib.pyplot as plt
 
 class UserAuth:
-    user = 'jefferson_galvao'
+    user = ''
     password = ''
 
 def db_connect(user, password):
